@@ -19,17 +19,211 @@
             <h1 class="text-3xl mt-4 mb-2 font-bold text-white">Dev Burguer
             </h1>
 
-            <span class="text-white font-medium">Rua Front 10, Ponta de Baixo - SC</span>
+            <span class="text-white font-medium mb-5">Rua Front 10, Ponta de Baixo - SC</span>
 
             <div>
-                <span class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
-                    <span>Seg á Dom - 18:00 as 22:00</span>
+                <span class="bg-green-600 px-4 py-1 rounded-lg" id="date-span">
+                    <span class="text-white font-medium">Seg á Dom - 18:00 as 22:00</span>
                 </span>
             </div>
 
         </div>
     </header>
     <!--HEADER- FIM-->
+
+    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6"> 
+        Conheça nosso menu
+    </h2>
+
+    <!--Inicio-Menu-->
+    <div id="menu">
+
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+            <!--Produto-Item-->
+        <div class="flex gap-2">
+                <img 
+                src="./assets/hamb-1.png" 
+                alt="Burguer Smash"
+                class=" w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                />
+
+             <div>
+                <p class="font-bold">Burger Smash</p>
+                <p class="text-sm">Nosso Burger Smash é uma explosão de sabor com 160gm de carne suculenta, queijo derretido e acompanhamentos frescos, tudo em um delicioso pão macio.</p>
+            
+
+            <div class="flex items-center gap-2 justify-between mt-3">
+               <p class="font-bold text-lg">R$ 18.90</p> 
+               <button 
+                class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                data-name="Burguer Smash"
+                data-price="18.90"
+                >
+
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+               </button>
+            </div>
+             </div>
+         </div>
+            <!--Fim-Produto-Item-->
+
+                <!--Produto-Item-->
+        <div class="flex gap-2">
+            <img 
+            src="./assets/hamb-2.png" 
+            alt="Bacon Blast Burger"
+            class=" w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+            />
+
+         <div>
+            <p class="font-bold">Bacon Blast Burger</p>
+            <p class="text-sm">Sabor intenso: carne suculenta, queijo derretido e o toque irresistível do bacon crocante. Uma explosão de sabores!</p>
+        
+
+        <div class="flex items-center gap-2 justify-between mt-3">
+           <p class="font-bold text-lg">R$ 32.90</p> 
+           <button 
+            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+            data-name="Bacon Blast Burger"
+            data-price="32.90"
+            >
+
+            <i class="fa fa-cart-plus text-lg text-white"></i>
+           </button>
+        </div>
+         </div>
+     </div>
+        <!--Fim-Produto-Item-->
+
+         <!--Produto-Item-->
+         <div class="flex gap-2">
+            <img 
+            src="./assets/hamb-3.png" 
+            alt="Burger Duplo"
+            class=" w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+            />
+
+         <div>
+            <p class="font-bold">Burger Duplo</p>
+            <p class="text-sm">Dobro de sabor: duas suculentas carnes, queijo derretido, vegetais frescos e molho especial em um pão macio. Uma explosão de sabores em cada mordida!</p>
+        
+
+        <div class="flex items-center gap-2 justify-between mt-3">
+           <p class="font-bold text-lg">R$ 30.90</p> 
+           <button 
+            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+            data-name="Burger Duplo"
+            data-price="30.90"
+            >
+
+            <i class="fa fa-cart-plus text-lg text-white"></i>
+           </button>
+        </div>
+         </div>
+     </div>
+        <!--Fim-Produto-Item-->
+
+        <!--Produto-Item-->
+        <div class="flex gap-2">
+            <img 
+            src="./assets/hamb-4.png" 
+            alt="Frango Supreme Burger"
+            class=" w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+            />
+
+         <div>
+            <p class="font-bold">Frango Supreme Burger</p>
+            <p class="text-sm">Frango suculento, queijo derretido, frescor dos vegetais e nosso molho especial. Um deleite irresistível em cada pedaço!</p>
+        
+
+        <div class="flex items-center gap-2 justify-between mt-3">
+           <p class="font-bold text-lg">R$ 28.90</p> 
+           <button 
+            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+            data-name="Frango Supreme Burger"
+            data-price="28.90"
+            >
+
+            <i class="fa fa-cart-plus text-lg text-white"></i>
+           </button>
+        </div>
+         </div>
+     </div>
+        <!--Fim-Produto-Item-->
+
+        </main>
+
+        <div class="mx-auto max-w-7xl px-2 my-2">
+            <h2 class="font-bold text-3xl">
+                Bebidas
+            </h2>
+        </div>
+
+        <!--Grid-Bebidas-->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+                 <!--Bebida-Item-->
+        <div class="flex gap-2 min-w-full">
+            <img 
+            src="./assets/refri-1.png" 
+            alt="Coca Cola"
+            class=" w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+            />
+
+         <div class="w-full">
+            <p class="font-bold">Coca Cola</p>
+            <p class="text-sm">Coca-Cola Lata </p>
+        
+
+        <div class="flex items-center gap-2 justify-between mt-3">
+           <p class="font-bold text-lg">R$ 7.90</p> 
+           <button 
+            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+            data-name="Coca Cola"
+            data-price="7.90"
+            >
+
+            <i class="fa fa-cart-plus text-lg text-white"></i>
+           </button>
+        </div>
+         </div>
+     </div>
+        <!--Fim-Bebida-Item-->
+
+         <!--Bebida-Item-->
+         <div class="flex gap-2 min-w-full">
+            <img 
+            src="./assets/refri-2.png" 
+            alt="Guarana"
+            class=" w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+            />
+
+         <div class="w-full">
+            <p class="font-bold">Guaraná</p>
+            <p class="text-sm">Guaraná Lata </p>
+        
+
+        <div class="flex items-center gap-2 justify-between mt-3">
+           <p class="font-bold text-lg">R$ 7.90</p> 
+           <button 
+            class="bg-gray-900 px-5 rounded add-to-cart-btn"
+            data-name="Guarana"
+            data-price="7.90"
+            >
+
+            <i class="fa fa-cart-plus text-lg text-white"></i>
+           </button>
+        </div>
+         </div>
+     </div>
+        <!--Fim-Bebida-Item-->
+
+            </div>
+        <!--Grid-Bebidas-->
+
+    </div>
+    <!--Fim-Menu-->
     
 </body>
 </html>
