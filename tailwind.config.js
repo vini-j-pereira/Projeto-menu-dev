@@ -7,7 +7,7 @@ module.exports = {
     },
     extend: {
       backgroundImage:{
-        "home": "url('/assets/bg.png')"
+        "home": "url('/assets/joshua-kantarges-wO4CyWnIzz4-unsplash.jpg')"
       }
     },
   },
