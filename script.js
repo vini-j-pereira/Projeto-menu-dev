@@ -176,7 +176,8 @@ checkoutBtn.addEventListener("click", function(){
     const cartItems = cart.map((item) => {
         return (
             `*Olá! Gostaria de faze o meu pedido:*<br>
-            ${item.name} Quantidade: (${item.quantity}) Preço: R$${item.price} |`
+            ${item.name} Quantidade: (${item.quantity}) Preço: R$${item.price} |<br>
+            ${addressInput.value}`
         )
     }).join("")
 
